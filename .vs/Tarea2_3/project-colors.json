@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "00a4e426-e82c-41ba-b016-da57e1498035": {
+      "ProjectGuid": "00a4e426-e82c-41ba-b016-da57e1498035",
+      "DisplayName": "Tarea2_3",
+      "ColorIndex": 0
+    },
+    "8a16acdb-6d4d-4026-ba12-2de22490e8ae": {
+      "ProjectGuid": "8a16acdb-6d4d-4026-ba12-2de22490e8ae",
+      "DisplayName": "Tarea2_3.Android",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

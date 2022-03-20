@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea2_3.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Tarea 2.3" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Label x:Name="lblTitulo" Text="Sin grabar"/>
+        <Entry x:Name="txtDescripcion" Placeholder="Descripción" />
+        
+        
+        <Grid ColumnDefinitions="*,*,*">
+
+            <Button x:Name="btnGrabar" Text="Grabar" Clicked="btnGrabar_Clicked"/>
+
+            <Button Grid.Column="1" x:Name="btnDetener" Text="Detener" Clicked="btnDetener_Clicked"/>
+
+            <Button Grid.Column="2" x:Name="btnPlay" Text="Reproducir" Clicked="btnPlay_Clicked"/>
+        </Grid>
+        
+        <Button x:Name="btnLista" Text="Lista" Clicked="btnLista_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
